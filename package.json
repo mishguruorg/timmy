@@ -1,5 +1,5 @@
 {
-  "name": "timmy",
+  "name": "@mishguru/timmy",
   "version": "1.0.0",
   "description": "Find out which files take the longest to require",
   "main": "dist/index.js",
@@ -33,5 +33,13 @@
     "require": [
       "babel-register"
     ]
+  },
+  "dependencies": {
+    "caller": "^1.0.1",
+    "chalk": "^1.1.3",
+    "find-package-json": "^1.0.0",
+    "pretty-ms": "^2.1.0",
+    "resolve": "^1.2.0",
+    "text-table": "^0.2.0"
   }
 }
