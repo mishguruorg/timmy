@@ -35,6 +35,8 @@ if (quiet) {
   timmy.restoreRequire()
 }
 
+console.log('Timing %s', packagePath || filePath)
+
 timmy.resetTimer()
 require(modulePath)
 timmy.printStats(modulePath)
