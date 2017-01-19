@@ -16,6 +16,9 @@
     "coverage": "pkg-coverage",
     "lint": "pkg-lint"
   },
+  "bin": {
+    "timmy": "./bin/timmy.js"
+  },
   "devDependencies": {
     "@stayradiated/pkg": "^1.1.2"
   },
